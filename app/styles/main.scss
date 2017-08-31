@@ -90,7 +90,7 @@ p {
     &:after {
       display: inline-block;
       content: "";
-      border-top: 1rem solid #EA4301;
+      border-top: 1rem solid #EA4301;;
       width: 15rem;
       margin: 0 1rem;
     }
@@ -103,6 +103,16 @@ p {
   transform: translateX(-50%);
   img {
     max-width: 5rem;
+  }
+}
+
+#fp-nav ul li a span {
+  background: #021442;
+}
+
+#fp-nav ul li a {
+  &.active span {
+    background: #EA4301;
   }
 }
 
