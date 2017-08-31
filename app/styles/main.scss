@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'palanquin_darkbold';
+    src: url('fonts/palanquindark-bold-2-webfont.woff2') format('woff2'),
+         url('fonts/palanquindark-bold-2-webfont.woff') format('woff'),
+         url('fonts/palanquindark-bold-2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #021442;
+}
+
+a {
+  color: #021442;
+  cursor: pointer;
+  &:hover {
+    color: #B9DFF0;
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'palanquin_darkbold', sans-serif;
+}
+
+p {
+  font-family: "adobe-garamond-pro", serif;
+  font-style: italic;
+}
+
+.red {
+  color: #EA4301;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+  img {
+      max-height: 60rem;
+  }
+}
+
+.next {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  img {
+    max-width: 5rem;
+  }
+}
+
+.about {
+  h3 {
+    padding-top: 1rem;
+  }
+  p {
+    font-size: 16px;
+    max-width: 35rem;
+  }
+}
+
+.contact {
+  text-align: center;
+    h2 {
+      font-size: 4rem;
+      margin: 4rem;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+    &:before {
+      display: inline-block;
+      content: "";
+      border-top: 1rem solid #021442;
+      width: 15rem;
+      margin: 0 1rem;
+    }
+    &:after {
+      display: inline-block;
+      content: "";
+      border-top: 1rem solid #EA4301;
+      width: 15rem;
+      margin: 0 1rem;
+    }
+}
+
+.prev {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  img {
+    max-width: 5rem;
+  }
+}
