@@ -7,20 +7,24 @@
     font-style: normal;
 }
 
+$blue-light: #B9DFF0;
+$blue-dark: #021442;
+$red: #EA4301;
+
 html, body {
   margin: 0;
   padding: 0;
-  color: #021442;
+  color: $blue-dark;
 }
 
 a {
-  color: #021442;
+  color: $blue-dark;
   cursor: pointer;
   &:focus {
-    color: #021442;
+    color: $blue-dark;
   }
   &:hover {
-    color: #B9DFF0;
+    color: $blue-light;
     text-decoration: none;
   }
 }
@@ -35,7 +39,7 @@ p {
 }
 
 .red {
-  color: #EA4301;
+  color: $red;
 }
 
 .uppercase {
@@ -53,7 +57,7 @@ p {
 
 .next {
   position: absolute;
-  bottom: 2rem;
+  bottom: 4rem;
   left: 50%;
   transform: translateX(-50%);
   img {
@@ -83,14 +87,14 @@ p {
     &:before {
       display: inline-block;
       content: "";
-      border-top: 1rem solid #021442;
+      border-top: 1rem solid $blue-dark;
       width: 15rem;
       margin: 0 1rem;
     }
     &:after {
       display: inline-block;
       content: "";
-      border-top: 1rem solid #EA4301;;
+      border-top: 1rem solid $red;;
       width: 15rem;
       margin: 0 1rem;
     }
@@ -98,7 +102,7 @@ p {
 
 .prev {
   position: absolute;
-  top: 2rem;
+  top: 4rem;
   left: 50%;
   transform: translateX(-50%);
   img {
@@ -107,12 +111,12 @@ p {
 }
 
 #fp-nav ul li a span {
-  background: #021442;
+  background: $blue-dark;
 }
 
 #fp-nav ul li a {
   &.active span {
-    background: #EA4301;
+    background: $red;
   }
 }
 
