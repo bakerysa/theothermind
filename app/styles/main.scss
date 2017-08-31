@@ -16,6 +16,9 @@ html, body {
 a {
   color: #021442;
   cursor: pointer;
+  &:focus {
+    color: #021442;
+  }
   &:hover {
     color: #B9DFF0;
     text-decoration: none;
@@ -43,7 +46,8 @@ p {
   display: block;
   text-align: center;
   img {
-      max-height: 60rem;
+      max-width: 60rem;
+      margin: 0 auto;
   }
 }
 
@@ -99,5 +103,27 @@ p {
   transform: translateX(-50%);
   img {
     max-width: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .logo {
+    img {
+      max-width: 36rem;
+    }
+  }
+  .about {
+    text-align: justify;
+    h3 {
+      text-align: center;
+    }
+    p {
+      max-width: 35rem;
+      margin: 0 auto;
+    }
+  }
+  .responsive-h {
+  font-size: 2rem !important;
   }
 }

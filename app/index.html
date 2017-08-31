@@ -49,10 +49,10 @@
 
   	<div class="section">
       <div class="logo">
-        <img src="images/logo.png" />
+        <img class="img-responsive" src="images/logo.png" />
       </div>
-      <a href="#4" class="next">
-        <img src="images/arrow-down.png" />
+      <a href="#2" class="next">
+        <img class="img-responsive" src="images/arrow-down.png" />
       </a>
     </div>
 
@@ -101,18 +101,18 @@
             <h4>+27 83 307 1256</h4>
           </a>
           <a href="mailto:michelle@theothermind.com">
-            <h2 class="uppercase">theothermind.com</h2>
+            <h2 class="uppercase responsive-h">theothermind.com</h2>
           </a>
         </div>
       </div>
     </div>
 
   	<div class="section">
-      <a href="#3" class="prev">
-        <img src="images/arrow-up.png" />
+      <a href="#1" class="prev">
+        <img class="img-responsive" src="images/arrow-up.png" />
       </a>
       <div class="logo">
-        <img src="images/logo.png" />
+        <img class="img-responsive" src="images/logo.png" />
       </div>
     </div>
 
@@ -137,7 +137,9 @@
       $(document).ready(function() {
     	   $('#fullpage').fullpage({
            verticalCentered: true,
-           anchors:['1', '2', '3', '4']
+           anchors:['1', '2', '3', '4'],
+           navigation: true,
+           responsiveWidth: 992
          });
       });
     </script>
