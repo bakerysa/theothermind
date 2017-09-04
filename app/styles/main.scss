@@ -66,6 +66,10 @@ p {
 }
 
 .about {
+  img {
+    max-width: 43rem;
+    margin: 0 auto;
+  }
   h3 {
     padding-top: 1rem;
   }

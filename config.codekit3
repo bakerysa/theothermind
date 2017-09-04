@@ -21,6 +21,12 @@
 		"oAP": "\/dist\/.gitattributes",
 		"oF": 0
 		},
+	"\/app\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/dist\/favicon.ico",
+		"oF": 0
+		},
 	"\/app\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -81,6 +87,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/app\/images\/Michelle.jpg": {
+		"ft": 16384,
+		"iS": 3275956,
+		"oA": 0,
+		"oAP": "\/dist\/images\/Michelle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/app\/images\/placeholder.png": {
 		"ft": 32768,
 		"iS": 19773,
@@ -89,6 +105,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/touch\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 15436,
+		"oA": 0,
+		"oAP": "\/dist\/images\/touch\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/touch\/chrome-touch-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 30420,
+		"oA": 0,
+		"oAP": "\/dist\/images\/touch\/chrome-touch-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/app\/images\/touch\/icon-128x128.png": {
+		"ft": 32768,
+		"iS": 5014,
+		"oA": 0,
+		"oAP": "\/dist\/images\/touch\/icon-128x128.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3351,6 +3400,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/dist\/dist",
+		"oF": 0
 		},
 	"\/docs\/commands.md": {
 		"cS": 0,
